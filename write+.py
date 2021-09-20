@@ -1,0 +1,5 @@
+file=open("write+already.txt","w+")
+file.write("shimla is a hill station")
+data1=file.read()
+print(data1)
+file.close()

@@ -1,0 +1,5 @@
+f=open("a+ mode.txt",mode="a+")
+f.write("\n yo yo honey singh!!")
+data=f.read()
+print(data)
+f.close()

@@ -1,0 +1,5 @@
+f=open("read+.txt","r+")
+data=f.read()
+f.write("\nlaptop")
+print(data)
+f.close()
